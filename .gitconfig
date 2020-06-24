@@ -1,0 +1,11 @@
+[core]
+	editor = code
+	eol = lf
+	autocrlf = input
+
+[color "diff"]
+	whitespace = red reverse
+
+[user]
+	name = Jonathan Clow
+	email = jonclow@redmercury.co.nz
