@@ -35,7 +35,7 @@ shopt -s checkwinsize
 [ -x /usr/bin/lesspipe ] && eval "$(SHELL=/bin/sh lesspipe)"
 
 # Load aliases if they exist.
-[ -f "$HOME/.aliases" ] && source "$HOME/.aliases"
+[ -f "$HOME/code/dotfiles/.aliases" ] && source "$HOME/code/dotfiles/.aliases"
 
 # Determine git branch.
 parse_git_branch() {
